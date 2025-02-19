@@ -42,6 +42,16 @@ local function onButtonClick()
     infiniteJumpEnabled = not infiniteJumpEnabled
     button.Text = infiniteJumpEnabled and "On" or "Off"
 end
+
+local UserInputService = game:GetService("UserInputService")
+local gui = script.Parent.gui
+
+UserInputService.InputBegan:Connect(function(input, gameProcessedEvent)
+     If input.KeyCode == Enum.KeyCode.K  and gui.Visible == true then
+         gui.Visible = false
+     elseif input.KeyCode == Enum.KeyCode.K then
+          gui.Visible = true
+end
  
 button.MouseButton1Click:Connect(onButtonClick)
  
