@@ -22,13 +22,13 @@ button.BackgroundColor3 = Color3.new(0, 0.5, 1)
 button.Font = Enum.Font.SourceSans
 button.TextColor3 = Color3.new(1, 1, 1)
 button.TextSize = 14
-button.Text = "InfJump"
+button.Text = "Enable"
 button.Parent = frame
  
 local label = Instance.new("TextLabel")
 label.Name = "CreatorLabel"
 label.Size = UDim2.new(0, 200, 0, 20)
-label.Position = UDim2.new(0, 0, 0, -20)
+label.Position = UDim2.new(0, 0, 0, -15)
 label.BackgroundTransparency = 1
 label.Font = Enum.Font.SourceSansBold
 label.TextColor3 = Color3.new(1, 1, 1)
