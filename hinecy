@@ -1,4 +1,4 @@
-
+local gui = Instance.new("ScreenGui")
 gui.Name = "DraggableGUI"
 gui.ResetOnSpawn = false
 gui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -22,7 +22,7 @@ button.BackgroundColor3 = Color3.new(0, 0.5, 1)
 button.Font = Enum.Font.SourceSans
 button.TextColor3 = Color3.new(1, 1, 1)
 button.TextSize = 14
-button.Text = "Enable"
+button.Text = "InfJump"
 button.Parent = frame
  
 local label = Instance.new("TextLabel")
